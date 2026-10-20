@@ -9,9 +9,9 @@
       body { max-width: 32rem; margin: 2.5rem 0; padding: 0 1.25rem; font-size: 17px; }
       .profile-pic { display: block; margin: 0 0 1.25rem; max-width: 100%; height: auto; }
 
-      /* Mobile: centre the photo and keep it inside the text column. */
+      /* Mobile: photo spans the same width as the text below it. */
       @media (max-width: 768px) {
-        .profile-pic { margin-left: auto; margin-right: auto; }
+        .profile-pic { width: 100%; max-width: none; height: auto; }
       }
     </style>
 </head>
