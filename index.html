@@ -7,7 +7,12 @@
     <title>Shivansh Patle</title>
     <style>
       body { max-width: 32rem; margin: 2.5rem 0; padding: 0 1.25rem; font-size: 17px; }
-      .profile-pic { display: block; margin: 0 0 1.25rem; }
+      .profile-pic { display: block; margin: 0 0 1.25rem; max-width: 100%; height: auto; }
+
+      /* Mobile: centre the photo and keep it inside the text column. */
+      @media (max-width: 600px) {
+        .profile-pic { margin-left: auto; margin-right: auto; }
+      }
     </style>
 </head>
 <body>
